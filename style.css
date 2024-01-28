@@ -295,4 +295,88 @@
   font-size: 24px;
   color: #323334;
   padding-top: 15px;
+}
+* body .fon2 {
+  display: flex;
+  background-image: url(img/fon2.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 510px;
+  margin: 80px 0;
+}
+* body .fon2 .block2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 575px;
+  height: 338px;
+  flex-shrink: 0;
+  margin-top: 90px;
+  margin-left: 145px;
+  background: rgba(255, 255, 255, 0.9);
+}
+* body .fon2 .block2 .bl_text {
+  padding-left: 130px;
+}
+* body .fon2 .block2 .bl_text h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-size: 24px;
+  color: #323334;
+  padding: 25px 0;
+}
+* body .fon2 .block2 .bl_text .price {
+  display: flex;
+  height: 40px;
+  gap: 20px;
+}
+* body .fon2 .block2 .bl_text .price h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: #7B5136;
+  font-size: 28px;
+  padding: 0;
+}
+* body .fon2 .block2 .bl_text .price p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: #7B5136;
+  font-size: 16px;
+  padding: 8px 0 0 0;
+  text-decoration: line-through;
+}
+* body .fon2 .block2 .bl_text p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: #323334;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 5px 0 15px 0;
+}
+* body .fon2 .block2 .bl_text button {
+  width: 124px;
+  height: 48px;
+  flex-shrink: 0;
+  border: 1px solid #323334;
+  color: #323334;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: rgba(219, 208, 204, 0);
+  color: #000000;
+  border-color: #000000;
+  margin-bottom: 25px;
 }/*# sourceMappingURL=style.css.map */
