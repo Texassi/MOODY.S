@@ -48,6 +48,10 @@
                     height: 27px;
                     width: 200px;
                     list-style-type: none;
+
+                    .burg{
+                        display: none;
+                    }
                 }
             }
 
@@ -185,6 +189,17 @@
                 .img_gl{
                     padding: 60px 0;
                     transition: 0.2s;
+
+                    .img2{
+                        margin-left: 37px;
+                        margin-top: -10px;
+                    }
+                    .img3{
+                        margin-top: 70px;
+                    }
+                    .img4{
+                        margin-top: -25px;
+                    }
                 }
                 .img_gl:hover{
                     transform: scale(1.05);
@@ -757,5 +772,98 @@
             margin-bottom: 10px;
         }
 
+        @media screen and (max-width:768px){
+            .container{
+                width: 710px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            header{
+                .head1{
+                    border-bottom: none;
+
+                    ul{
+                        width: 150px;
+                        .screch{
+                            display: none;
+                        }
+
+                        .like{
+                            display: none;
+                        }
+
+                        .burg{
+                            display: flex;
+                        }
+                    }
+
+                }
+                .head2{
+                    display: none;
+                }
+        
+                .head3{
+                    display: none;
+                }
+            }
+
+            .fon{
+                height: 450px;
+                .cont_gl{
+                    margin-left: 0;
+                    gap: 0px;
+
+                    .img_gl{
+                        padding: 30px 0;
+                    }
+
+                    .text_gl{
+                        padding-top: 69px;
+                        padding-bottom: 69px;
+                    }
+                    .owl-carousel{
+                        width: 620px;
+
+                        .img_gl{
+                            .img1{
+                                width: 300px;
+                                height: 300px;
+                                margin-top: 25px;
+                            }
+                            .img2{
+                                width: 200px;
+                                height: 200px;
+                                margin-right: 63px;
+                                margin-top: 65px;
+                            }
+                            .img3{
+                                width: 260px;
+                                height: 160px;
+                                margin-right: 40px;
+                                margin-top: 100px;
+                            }
+                            .img4{
+                                width: 300px;
+                                height: 250px;
+                                margin-top: 30px;
+                                // margin-right: 50px;
+                            }
+                        }
+
+                        .owl-dots{
+                            // display: flex;
+                        }
+                    }
+
+                }
+            }
+
+        }
+    
+        @media screen and (max-width:339px){
+            
+        }
     }
+
 }
