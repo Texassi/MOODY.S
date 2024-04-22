@@ -3,6 +3,7 @@ $(document).ready(function() {
     var itemsIncrement = 3;
     
     $('.product:lt(' + itemsToShow + ')').show();
+    $('#showLess').hide();
     
     $('#loadMore').on('click', function() {
         itemsToShow += itemsIncrement;
@@ -17,7 +18,8 @@ $(document).ready(function() {
     
     $('#showLess').on('click', function() {
         $('.product').not(':lt(6)').hide();
-        itemsToShow = 3;
+        itemsToShow = 6;
         $('#loadMore').show();
+        $('#showLess').hide();
     });
 });

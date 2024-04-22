@@ -194,6 +194,9 @@
   color: #fff;
   background: #323334;
 }
+* body .det2 {
+  display: none;
+}
 * body .det {
   display: flex;
   padding: 30px 0;
@@ -516,6 +519,7 @@
 * body .catalog .but {
   display: flex;
   justify-content: center;
+  gap: 40px;
 }
 * body .catalog .but button {
   font-family: Roboto;
@@ -526,7 +530,7 @@
   justify-content: center;
   cursor: pointer;
   border: none;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 60px;
   width: 350px;
   height: 50px;
@@ -777,5 +781,114 @@
     width: 300px;
     height: 250px;
     margin-top: 30px;
+  }
+  * body .fon .cont_gl .owl-carousel .owl-dots {
+    margin: 0;
+  }
+  * body .det {
+    display: none;
+  }
+  * body .det2 {
+    display: flex;
+    padding: 30px 0;
+    gap: 40px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  * body .det2 .det_cart {
+    display: flex;
+    width: 678px;
+    height: 368px;
+    flex-shrink: 0;
+    background: #FAFAFA;
+  }
+  * body .det2 .det_cart .det_text {
+    position: absolute;
+    margin-left: 330px;
+    margin-top: 130px;
+  }
+  * body .det2 .det_cart .det_text h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-size: 28px;
+    color: #323334;
+    margin-bottom: 45px;
+  }
+  * body .det2 .det_cart .det_text button {
+    width: 124px;
+    height: 48px;
+    flex-shrink: 0;
+    border: 1px solid #323334;
+    color: #323334;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: rgba(219, 208, 204, 0);
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 12px;
+    transition: 0.1s;
+  }
+  * body .det2 .det_cart .det_text button:hover {
+    color: #fff;
+    background: #323334;
+  }
+  * body .det2 .det_cart2 {
+    display: flex;
+    width: 678px;
+    height: 368px;
+    flex-shrink: 0;
+    background: #EAE9E7;
+  }
+  * body .det2 .det_cart2 img {
+    transform: scale(-1, 1);
+    margin-left: -54px;
+  }
+  * body .det2 .det_cart2 .det_text {
+    position: absolute;
+    margin-left: 245px;
+    margin-top: 130px;
+  }
+  * body .det2 .det_cart2 .det_text h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-size: 28px;
+    color: #323334;
+    margin-bottom: 45px;
+  }
+  * body .det2 .det_cart2 .det_text button {
+    width: 124px;
+    height: 48px;
+    flex-shrink: 0;
+    border: 1px solid #323334;
+    color: #323334;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: rgba(219, 208, 204, 0);
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 12px;
+    transition: 0.1s;
+  }
+  * body .det2 .det_cart2 .det_text button:hover {
+    color: #fff;
+    background: #323334;
+  }
+  * body .det2 .owl-carousel .carus {
+    width: 700px;
+  }
+  * body .det2 .owl-stage {
+    width: 700px;
   }
 }/*# sourceMappingURL=style.css.map */
