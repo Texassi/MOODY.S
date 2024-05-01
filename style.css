@@ -885,10 +885,47 @@
     color: #fff;
     background: #323334;
   }
-  * body .det2 .owl-carousel .carus {
-    width: 700px;
+  * body .det2 .carus {
+    display: flex;
+    gap: 40px;
+    margin-left: 70px;
   }
-  * body .det2 .owl-stage {
-    width: 700px;
+  * body .det2 .carus .owl-carousel {
+    width: 796px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  * body .det2 .carus .owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+  }
+  * body .det2 .carus .owl-carousel .owl-stage {
+    display: flex;
+    justify-content: center;
+    width: 9680px;
+    transform: translate3d(-3630px, 0px, 0px);
+    transition: all 3s ease 0s;
+  }
+  * body .det2 .carus .owl-carousel .owl-stage .owl-item {
+    width: 0px;
+  }
+  * body .det2 .carus .owl-carousel .owl-nav {
+    display: none;
+  }
+  * body .det2 .carus .owl-carousel .owl-dots {
+    display: none;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 592px;
+  }
+  * body .det2 .carus .owl-carousel .owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 25px;
+    border: none;
+    margin-left: 20px;
+  }
+  * body .det2 .carus .owl-carousel .owl-dots .active {
+    background-color: rgba(50, 51, 52, 0.6980392157);
   }
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    @mixin reset {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    @mixin but{
+        width: 124px;
+        height: 48px;
+        flex-shrink: 0;
+
+        border: 1px solid #323334;
+
+        color: #323334;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .fon_cr{
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-top: 60px;
+        width: 100%;
+        height: 250px;
+        flex-shrink: 0;
+        background-color: #DCE1DA;
+        text-align: center;
+
+        .h2_1{
+            @include reset;
+
+            font-size: 38px;
+            color: #323334;
+            
+            margin-bottom: 20px;
+        }
+
+        .h2_2{
+            @include reset;
+
+            font-size: 38px;
+            color: #323334;
+            font-weight: 400;
+
+            margin-bottom: 45px;
+        }
+
+        p{
+            @include reset;
+
+            font-size: 18px;
+            color: rgba(0, 0, 0, 0.50);
+        }
+    }
+
+    .sec{
+        display: flex;
+        flex-direction: column;
+
+        button{
+            border: none;
+            background-color: #dce1da00;
+            width: auto;
+            text-align: left;
+        }
+    }
+
+    .thi{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .hidden {
+        display: none;
+        flex-direction: column;
+    }
+    
+    button {
+        margin: 5px;
+    }
+}

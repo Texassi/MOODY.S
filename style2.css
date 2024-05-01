@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* .fon_cr {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 60px;
+  width: 100%;
+  height: 250px;
+  flex-shrink: 0;
+  background-color: #DCE1DA;
+  text-align: center;
+}
+* .fon_cr .h2_1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-size: 38px;
+  color: #323334;
+  margin-bottom: 20px;
+}
+* .fon_cr .h2_2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-size: 38px;
+  color: #323334;
+  font-weight: 400;
+  margin-bottom: 45px;
+}
+* .fon_cr p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+* .sec {
+  display: flex;
+  flex-direction: column;
+}
+* .sec button {
+  border: none;
+  background-color: rgba(220, 225, 218, 0);
+  width: auto;
+  text-align: left;
+}
+* .thi {
+  display: flex;
+  flex-direction: column;
+}
+* .hidden {
+  display: none;
+  flex-direction: column;
+}
+* button {
+  margin: 5px;
+}/*# sourceMappingURL=style2.css.map */

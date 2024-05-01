@@ -962,19 +962,71 @@
                         }
                     }
                 }
+                .carus{
+                    
+                    .det_gl{}
+                    // width: 1200px;
+                        display: flex;
+                        gap: 40px;
+                        margin-left: 70px;
+                        // margin-left: auto;
+                        // margin-right: auto;
 
-                .owl-carousel{
-                    width: 700px;
+
+                        .owl-carousel{
+                            width: 796px;
+                            margin-right: auto;
+                            margin-left: auto;
+                            
+
+                            .owl-stage-outer{
+                                position: relative;
+                                overflow: hidden;
+                            }
+
+                            .owl-stage{
+                                display: flex;
+                                justify-content: center;
+                                
+                                width: 9680px;
+                                transform: translate3d(-3630px, 0px, 0px);
+                                transition: all 3s ease 0s;
                 
-                    .owl-stage{
-                        width: 700px;
-                    }
+                                .owl-item{
+                                    width: 0px;
+                                }
+                            }
+                
+                            .owl-nav{
+                                display: none;
+                            }
+                
+                            .owl-dots{
+                                display: none;
+                                position: absolute;
+                                margin-top: -80px;
+                                margin-left: 592px;
+
+                                .owl-dot{
+                                    width: 10px;
+                                    height: 10px;
+                                    border-radius: 25px;
+                                    border: none;
+                                    margin-left: 20px;
+                                }
+                    
+                                .active{
+                                    background-color: #323334b2;
+                                }
+                            }
+                        }
                 }
 
-        }
+            }
     
         @media screen and (max-width:339px){
             
+        }
         }
     }
 
