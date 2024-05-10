@@ -411,6 +411,16 @@
                 height: 566px;
                 flex-shrink: 0;
 
+                .star {
+                    cursor: pointer;
+                    font-size: 24px;
+                    color: #999999;
+                  }
+                  
+                .star.filled {
+                    color: #F2C94C;
+                }
+
                 p{
                     @include reset;
 
@@ -608,6 +618,16 @@
                 display: flex;
                 margin-bottom: 15px;
 
+                .star {
+                    cursor: pointer;
+                    font-size: 24px;
+                    color: #999999;
+                  }
+                  
+                .star.filled {
+                    color: #F2C94C;
+                }
+
                 .img_top{
                     width: 230px;
                 }
@@ -628,6 +648,10 @@
                     color: #323334;
                     padding: 25px 0 12px 0;
                     width: 150px;
+                }
+
+                h2{
+                    margin-top: 10px;
                 }
 
                 .popup {
@@ -964,7 +988,7 @@
                 }
                 .carus{
                     
-                    .det_gl{}
+                    .det_gl{
                     // width: 1200px;
                         display: flex;
                         gap: 40px;
@@ -1020,6 +1044,7 @@
                                 }
                             }
                         }
+                    }
                 }
 
             }
