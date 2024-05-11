@@ -3,7 +3,7 @@
     padding: 0;
 
     .container2{
-        width: 1134px;
+        width: 1100px;
     }
 
     @mixin reset {
@@ -69,12 +69,13 @@
 
     main{
         display: flex;
-        gap: 130px;
+        gap: 54px;
     }
 
     .nav{
         position: sticky;
         top: 15px;
+        width: 250px;
 
         h3{
             @include reset;
@@ -87,7 +88,7 @@
         a{
             @include reset;
 
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 400;
             color: #323334;
             text-decoration: none;
@@ -102,7 +103,7 @@
         button{
             @include reset;
 
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 400;
             color: #323334;
             text-decoration: none;
@@ -125,7 +126,7 @@
         button{
             border: none;
             background-color: #dce1da00;
-            width: 90px;
+            width: 100px;
             text-align: left;
         }
 
@@ -143,7 +144,7 @@
         flex-direction: column; 
 
         a{
-            width: 130px;
+            width: 150px;
         }
     }
 
@@ -163,7 +164,7 @@
         label{
             @include reset;
 
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 400;
             color: #323334;
             text-decoration: none;
@@ -529,7 +530,7 @@
             font-weight: 100;
             color: #323334;
 
-            padding: 20px 0px 20px 0px;
+            padding: 10px 0px 20px 0px;
         }
     }
 
@@ -537,8 +538,78 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin-left: -5px;
 
+        .product{
+            margin-bottom: 30px;
+        }
+
+        .img_top{
+            width: 356px;
+            height: 415px;
+            margin-left: -11px;
+        }
+
+        .catal_text{
+            p{
+                @include reset;
+
+                font-size: 18px;
+                color: #323334;
+                padding: 25px 0 12px 0;
+                width: 150px;
+            }
+
+            h2{
+                @include reset;
+
+                font-size: 24px;
+                color: #323334;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+            .popup {
+                display: flex;
+                width: 100px;
+                gap: 20px;
+            }
+
+            .star {
+                cursor: pointer;
+                font-size: 24px;
+                color: #999999;
+              }
+              
+            .star.filled {
+                color: #F2C94C;
+            }
+        }
+    }
+
+    .but{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+
+        button{
+            @include reset;
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+            border: none;
+            margin-top: 20px;
+            margin-bottom: 60px;
+            width: 350px;
+            height: 50px;
+            padding-top: 18px;
+            background-color: #323334;
+            color: #fff;
+
+            text-decoration: none;
+            text-transform: uppercase;
+
+
+        }
     }
 
 }

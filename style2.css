@@ -3,7 +3,7 @@
   padding: 0;
 }
 * .container2 {
-  width: 1134px;
+  width: 1100px;
 }
 * .fon_cr {
   display: block;
@@ -45,11 +45,12 @@
 }
 * main {
   display: flex;
-  gap: 130px;
+  gap: 54px;
 }
 * .nav {
   position: sticky;
   top: 15px;
+  width: 250px;
 }
 * .nav h3 {
   font-family: Roboto;
@@ -65,7 +66,7 @@
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   color: #323334;
   text-decoration: none;
@@ -80,7 +81,7 @@
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   color: #323334;
   text-decoration: none;
@@ -99,7 +100,7 @@
 * .sec button {
   border: none;
   background-color: rgba(220, 225, 218, 0);
-  width: 90px;
+  width: 100px;
   text-align: left;
 }
 * .sec div {
@@ -113,7 +114,7 @@
   flex-direction: column;
 }
 * .thi a {
-  width: 130px;
+  width: 150px;
 }
 * .hidden {
   display: none;
@@ -129,7 +130,7 @@
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   color: #323334;
   text-decoration: none;
@@ -493,11 +494,75 @@
   font-size: 18px;
   font-weight: 100;
   color: #323334;
-  padding: 20px 0px 20px 0px;
+  padding: 10px 0px 20px 0px;
 }
 * .sec_catal {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-left: -5px;
+}
+* .sec_catal .product {
+  margin-bottom: 30px;
+}
+* .sec_catal .img_top {
+  width: 356px;
+  height: 415px;
+  margin-left: -11px;
+}
+* .sec_catal .catal_text p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-size: 18px;
+  color: #323334;
+  padding: 25px 0 12px 0;
+  width: 150px;
+}
+* .sec_catal .catal_text h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-size: 24px;
+  color: #323334;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+* .sec_catal .catal_text .popup {
+  display: flex;
+  width: 100px;
+  gap: 20px;
+}
+* .sec_catal .catal_text .star {
+  cursor: pointer;
+  font-size: 24px;
+  color: #999999;
+}
+* .sec_catal .catal_text .star.filled {
+  color: #F2C94C;
+}
+* .but {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+* .but button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  width: 350px;
+  height: 50px;
+  padding-top: 18px;
+  background-color: #323334;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style2.css.map */
