@@ -496,20 +496,23 @@
   color: #323334;
   padding: 10px 0px 20px 0px;
 }
-* .sec_catal {
+* .dec {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-* .sec_catal .product {
+* .dec .product {
   margin-bottom: 30px;
 }
-* .sec_catal .img_top {
+* .dec .dec_con2 {
+  margin-bottom: 30px;
+}
+* .dec .img_top {
   width: 356px;
   height: 415px;
   margin-left: -11px;
 }
-* .sec_catal .catal_text p {
+* .dec p {
   font-family: Roboto;
   font-style: normal;
   font-weight: 800;
@@ -519,7 +522,7 @@
   padding: 25px 0 12px 0;
   width: 150px;
 }
-* .sec_catal .catal_text h2 {
+* .dec h2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 800;
@@ -529,17 +532,17 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
-* .sec_catal .catal_text .popup {
+* .dec .popup {
   display: flex;
   width: 100px;
   gap: 20px;
 }
-* .sec_catal .catal_text .star {
+* .dec .star {
   cursor: pointer;
   font-size: 24px;
   color: #999999;
 }
-* .sec_catal .catal_text .star.filled {
+* .dec .star.filled {
   color: #F2C94C;
 }
 * .but {

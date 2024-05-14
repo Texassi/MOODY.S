@@ -1,23 +1,23 @@
 $(document).ready(function() {
     var itemsToShow = 12;
-    var itemsIncrement = 3;
-    
-    $('.product:lt(' + itemsToShow + ')').show();
+    var itemsIncrement = 6;
+
+    $('.dec_con2:lt(' + itemsToShow + ')').show();
     $('#showLess').hide();
-    
+
     $('#loadMore').on('click', function() {
         itemsToShow += itemsIncrement;
-        $('.product:lt(' + itemsToShow + ')').show();
+        $('.dec_con2:lt(' + itemsToShow + ')').show();
         $('#showLess').hide();
 
-        if ($('.product').length <= itemsToShow) {
+        if ($('.dec_con2').length <= itemsToShow) {
             $('#loadMore').hide();
             $('#showLess').show();
         }
     });
-    
+
     $('#showLess').on('click', function() {
-        $('.product').not(':lt(12)').hide();
+        $('.dec_con2').not(':lt(12)').hide();
         itemsToShow = 12;
         $('#loadMore').show();
         $('#showLess').hide();

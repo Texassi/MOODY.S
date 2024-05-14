@@ -534,7 +534,7 @@
         }
     }
 
-    .sec_catal{
+    .dec{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -543,13 +543,15 @@
             margin-bottom: 30px;
         }
 
+        .dec_con2{
+            margin-bottom: 30px;
+        }
+
         .img_top{
             width: 356px;
             height: 415px;
             margin-left: -11px;
         }
-
-        .catal_text{
             p{
                 @include reset;
 
@@ -583,9 +585,8 @@
             .star.filled {
                 color: #F2C94C;
             }
-        }
     }
-
+    
     .but{
         display: flex;
         justify-content: center;
@@ -611,5 +612,6 @@
 
         }
     }
+
 
 }
