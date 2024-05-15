@@ -76,6 +76,11 @@
 * .nav a:hover {
   color: #F81111;
 }
+* .nav #mainButton1, * .nav #mainButton2, * .nav #mainButton3, * .nav #mainButton4, * .nav #mainButton5 {
+  margin-left: 0;
+  cursor: pointer;
+  width: 100px;
+}
 * .nav button {
   font-family: Roboto;
   font-style: normal;
@@ -135,6 +140,7 @@
   color: #323334;
   text-decoration: none;
   margin-left: 2px;
+  cursor: pointer;
 }
 * .fou label:hover, * .six label:hover {
   color: #F81111;
@@ -169,6 +175,7 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  cursor: pointer;
   width: 17px;
   height: 17px;
   border-radius: 5px;
@@ -195,6 +202,7 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  cursor: pointer;
   width: 17px;
   height: 17px;
   border-radius: 5px;
@@ -221,6 +229,7 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  cursor: pointer;
   width: 17px;
   height: 17px;
   border-radius: 5px;
@@ -247,6 +256,7 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  cursor: pointer;
   width: 17px;
   height: 17px;
   border-radius: 5px;
@@ -273,6 +283,7 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  cursor: pointer;
   width: 17px;
   height: 17px;
   border-radius: 5px;
@@ -299,6 +310,7 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  cursor: pointer;
   width: 17px;
   height: 17px;
   border-radius: 5px;
@@ -325,6 +337,7 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  cursor: pointer;
   width: 17px;
   height: 17px;
   border-radius: 5px;
@@ -351,6 +364,7 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  cursor: pointer;
   width: 17px;
   height: 17px;
   border-radius: 5px;
@@ -377,6 +391,7 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  cursor: pointer;
   width: 17px;
   height: 17px;
   border-radius: 5px;
@@ -403,6 +418,7 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  cursor: pointer;
   width: 17px;
   height: 17px;
   border-radius: 5px;
@@ -429,6 +445,7 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  cursor: pointer;
   width: 17px;
   height: 17px;
   border-radius: 5px;
@@ -455,6 +472,7 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  cursor: pointer;
   width: 17px;
   height: 17px;
   border-radius: 5px;
@@ -505,6 +523,7 @@
   margin-bottom: 30px;
 }
 * .dec .dec_con2 {
+  display: none;
   margin-bottom: 30px;
 }
 * .dec .img_top {
