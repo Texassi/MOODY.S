@@ -16,14 +16,33 @@
   justify-content: space-between;
   padding: 20px 0px;
 }
-* body header .head1 ul {
+* body header .head1 .name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-decoration: none;
+  color: #323334;
+  font-size: 28px;
+}
+* body header .head1 .ul_main {
+  display: flex;
+  justify-content: space-between;
+  height: 27px;
+  width: 140px;
+  list-style-type: none;
+}
+* body header .head1 .ul_main .burg {
+  display: none;
+}
+* body header .head1 .ul_cart {
   display: flex;
   justify-content: space-between;
   height: 27px;
   width: 200px;
   list-style-type: none;
 }
-* body header .head1 ul .burg {
+* body header .head1 .ul_cart .burg {
   display: none;
 }
 * body header .head2 {

@@ -42,7 +42,27 @@
 
                 padding: 20px 0px;
 
-                ul{
+                .name{
+                    @include reset;
+
+                    text-decoration: none;
+                    color: #323334;
+                    font-size: 28px;
+                }
+
+                .ul_main{
+                    display: flex;
+                    justify-content: space-between;
+                    height: 27px;
+                    width: 140px;
+                    list-style-type: none;
+
+                    .burg{
+                        display: none;
+                    }
+                }
+
+                .ul_cart{
                     display: flex;
                     justify-content: space-between;
                     height: 27px;
